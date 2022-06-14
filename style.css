@@ -20,8 +20,15 @@
 @media (max-width:510px){
     .img-content{
         width: 100%;
+        height: auto;
     }
     .text-content{
         font-size: 10px;
+    }
+}
+
+@media (max-width:410px){
+    .text-content{
+        text-align: center;
     }
 }
